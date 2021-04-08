@@ -1,0 +1,16 @@
+.Low {
+  color: green;
+}
+
+.Medium {
+  color: orange;
+}
+
+.High {
+  color: orangered;
+}
+
+p {
+  font-size: 16px;
+}
+
