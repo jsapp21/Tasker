@@ -4,19 +4,17 @@ import { Link } from 'react-router-dom'
 const Nav = () => {
 
         return (
-            <div className="ui raised blue segment">
-                <h1 className="ui yellow left floated header">TASKER</h1>
+            <div className="navBar">
+                <h1 className="ui yellow left floated header">workspace</h1>
+
 
                 <Link to='/notes/new'>
-                    <button className="ui yellow right floated mini button">New Note</button>
+                    <button className="navButton">N</button>
                 </Link>
                
                 <Link to="/">
-                    <button className="ui blue right floated mini button">Log Off</button>
+                    <button className="navButton">O</button>
                 </Link>
-      
-                <div className="ui clearing divider"></div>
-
             </div>
         )
 }

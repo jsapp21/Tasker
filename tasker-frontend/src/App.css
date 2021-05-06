@@ -14,3 +14,37 @@ p {
   font-size: 16px;
 }
 
+.navBar {
+  width: 150px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.navButton {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
+.navButton:hover {
+  background-color:black;
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 4px 2px;
+  border-radius: 50%;
+}
+
