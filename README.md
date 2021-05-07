@@ -38,6 +38,4 @@ Adding:
 After these steps you can make changes to the frontend files with an auto-refresh.
 
 ###
-Created by James Sapp# Tasker
-# ToDoTasker
-# ToDoTasker
+Created by James Sapp
