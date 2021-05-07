@@ -5,7 +5,6 @@ import { connect } from 'react-redux'
 class Home extends Component {
     
     renderNotes = () => {
-        console.log(this.props.filter, 'funtion/home')
         const filterNotes = this.props.user.notes.filter(note => note.priority.includes(this.props.filter))
         return filterNotes.map(note => {
             return <HomeNote key={note.id} note={note} />
@@ -13,8 +12,6 @@ class Home extends Component {
     }
 
     render(){
-        console.log(this.props.user)
-        console.log(this.props.filter, 'render/home')
         return (
             <div>
                 {this.renderNotes()}
